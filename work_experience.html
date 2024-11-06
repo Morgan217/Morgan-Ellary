@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <link rel="stylesheet" href="style.css">  <!--Links to style sheet-->
+           <link rel="stylesheet" href="fontAwesome/css/all.css">  <!--links to font awesome css style sheet-->
+          
+          <title>Education and Experience Overall</title>
+          <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Work and Education Timeline</title>
+    <style>
+	
+	 #custom-timeline {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #333;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+        }
+        .timeline-item {
+            padding: 20px;
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .timeline-item.left {
+            left: -31%;
+            border-left: 6px solid #3498db;
+        }
+        .timeline-item.right {
+            left: 31%;
+            border-left: 6px solid #28a745;
+        }
+        .timeline-item::before {
+            content: ' ';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #ffffff;
+            border: 4px solid;
+            top: 20px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .timeline-item.left::before {
+            right: -60px;
+            border-color: #3498db;
+        }
+        .timeline-item.right::before {
+            left: -65px;
+            border-color: #28a745;
+        }
+        .date {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .date.left {
+            color: #3498db;
+        }
+        .date.right {
+            color: #28a745;
+        }
+    </style>
+          
+      </head>
+
+      <body>
+            <div id="header">
+                 <img src="image/me2.jpg" style="float: center;" />
+            </div>
+            <!--Navigation Bar-->
+            <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn">About me
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+						<a href="index.html">Home</a>
+                        <a href="about_me.html">About me</a>
+						<a href="hobbies.html">Hobbies</a>
+						<a href="skills.html">Skills</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown">
+                    <button class="dropbtn"> Work Experiences and Education
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+						<a href="overall.html">Work Experiences and Education Overall</a>
+                        <a href="education.html">Education</a>
+                        <a href="work_experience.html">Work Experiences</a>
+						
+                    </div>
+                </div>
+                
+                
+            </div>
+        
+        
+          <div align="center">
+          <table border="6px">
+               <tr>
+<td>
+<div class="contact-details">
+    <h2>Links</h2>
+    <ul>
+        <li><strong>Github</strong> <a href="https://github.com/morgan-ellary-217-ITvarsity">Github pages</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/morgan-ellary-576907168/" >Morgan Ellary</a></li>
+    </ul>
+</div>
+
+</td>
+</tr>
+
+			   
+			
+</td></tr>
+
+
+          </table>
+		  <div id="custom-timeline">
+		  
+		  <h1>Work Experience Timeline</h1>
+<div class="timeline">
+    <div class="timeline-item left">
+        <div class="date">May 2023 - July 2024</div>
+        <div>Company: Reliance Cloud</div>
+        <div>Position: DevOps Team Leader</div>
+    </div>
+    <div class="timeline-item right">
+        <div class="date">May 2022 - April 2023</div>
+        <div>Company: Reliance Cloud</div>
+        <div>Position: Solutions Architect</div>
+    </div>
+    <div class="timeline-item left">
+        <div class="date">Dec 2021 - Dec 2022</div>
+        <div>Company: Reliance Cloud</div>
+        <div>Position: Junior AWS Technical</div>
+    </div>
+    <div class="timeline-item right">
+        <div class="date">June 2021</div>
+        <div>Company: Trikal Computers</div>
+        <div>Position: Web Developer (Freelance)</div>
+    </div>
+    <div class="timeline-item left">
+        <div class="date">Dec 2020 - Aug 2021</div>
+        <div>Company: IT Varsity</div>
+        <div>Position: Project Manager of Tech Support</div>
+    </div>
+    <div class="timeline-item right">
+        <div class="date">July 2019 - Dec 2019</div>
+        <div>Company: Girls and Boys Town</div>
+        <div>Position: Tutor</div>
+    </div>
+    <div class="timeline-item left">
+        <div class="date">May 2017 - July 2018</div>
+        <div>Company: Girls and Boys Town</div>
+        <div>Position: Tutor</div>
+    </div>
+</div>
+</div>
+            <!--Footer Bar-->
+			<footer style="color:blue">&copy;The following website was created by Morgan Ellary</footer>
+      </body>
+</html> 
